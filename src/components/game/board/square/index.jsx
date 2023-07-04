@@ -1,8 +1,8 @@
 const Square = ({ value, onSquareClick }) => {
   return (
-    <button className="square" onClick={onSquareClick}>
-      {value}
-    </button>
+    <td onClick={onSquareClick}>
+      <p>{value}</p>
+    </td>
   );
 };
 
